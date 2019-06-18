@@ -1,0 +1,147 @@
+<!-- Título (jumbotron = classe de boas vindas inicial)  -->
+<div class="jumbotron p-4 my-1">
+    <h1 class="display-4">Fundamentos</h1>
+    <p class="lead m-1">Alguns recursos importantes do Bootstrap</p> 
+</div>
+
+<!-- Breadcrumb - classe para navegação -->
+<nav class="mb-5">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#/paginas/bemVindo.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active">Fundamentos</li>
+    </ol>
+</nav>
+
+<div class="exercicio">
+    <h1>1. Tipografia -
+        <small>
+            <a href="https://getbootstrap.com/docs/4.0/content/typography/" target="_black">Documentação Oficial</a>
+        </small>
+    </h1>
+    <hr>
+
+    <ul>
+        <li><strong>Reboot</strong> - Torna consistente o estilo entre diferentes browser!</li>
+        <li><strong>Rems</strong> - Baseado no raiz</li>
+        <li>Evita <strong>margin-top</strong> - Provavelmente será necessário adicionar algum espaço</li>
+        <li><strong>box-sizing</strong> border-box</li>
+        <li>Fontes nativas</li>
+    </ul>
+
+    <h1 class="mt-5">2. Espaços -
+        <small>
+            <a href="https://getbootstrap.com/docs/4.0/utilities/spacing/" target="_black">Documentação Oficial</a>
+        </small>
+    </h1>
+    <hr>
+
+    <!-- Espaços / classes bootstrap -->
+
+    <!--Exemplo de atalho para criar html mais facil-->
+    <!--(header.cabecalho>h1+(aside>nav>ul>li))-->
+    <!--.condeuto[id="Legal"] - cria div com classe conteudo -->
+
+    <div class="mb-5">1</div> <!--mb-5 = (margin-bottom) margin inferior ( de 0 a 5 -->
+    <div class="m-4 py-4">2</div> <!--m-4 = (margin) py-4 = (padding) no eixo y (vertica) (de 0 a 5)-->
+    <div class="pt-5">3</div> <!--pt-5 = (padding-top) padding superior-->
+
+    <!--Exemplos de classes 
+
+    p  = padding 
+    px = padding no eixo x (horizontal)
+    py = padding no eixo y (vertical)
+    pb = padding-bottom (inferior)
+    pt = padding-top (superior)
+    pl = padding-left
+    pr = padding-rigth
+    
+    m  = margin
+    my = margin no eixo y
+    mx = margin no eixo x
+    mb = margin-bottom
+    mt = margin-top
+    ml = margin-left
+    mr = margin-rigth
+    -->
+
+
+    <h1 class="mt-5">3. Cores -
+        <small>
+            <a href="https://getbootstrap.com/docs/4.0/utilities/colors/" target="_black">Documentação Oficial</a>
+        </small>
+    </h1>
+    <hr>
+
+    <!-- Cores -->
+
+    <!--bg-primary = cor azul; text-light = texto claro-->
+    <div class="my-1 p-3 bg-primary text-light">1</div>
+    <!--bg-danger = cor vermelha; text-white = texto branco-->
+    <div class="my-1 p-3 bg-danger text-white">2</div>
+    <!--bg-warning = cor amarela; text-success = texto verde-->
+    <div class="my-1 p-3 bg-warning text-success">3</div>
+
+    <h1 class="mt-5">4. Flex -
+        <small>
+            <a href="https://getbootstrap.com/docs/4.0/utilities/flex/" target="_black">Documentação Oficial</a>
+        </small>
+    </h1>
+    <hr>
+
+    <!-- Flex -->
+    <!--d-flex = ativa o flex box ; flex-column-reverse = orientação pela coluna revertido-->
+    <div class="d-flex flex-column-reverse p-2">
+        <div class="align-self-end">1</div> <!--Alinhado no final-->
+        <div class="align-self-center">2</div> <!--Alinhado no meio-->
+        <div class="align-self-start">3</div> <!--Alinhado no começo-->
+    </div>
+
+    <!-- Exemplos de responsividade
+    d-sm-flex = apenas para dispositivos pequenos ate maiores que grande
+    d-lg-flex = apenas para dispositivos grandes ate maiores que grande
+    xs = muito pequeno 
+    sm = pequeno
+    md = medio
+    lg = grande
+    xl = muito grande
+    -->
+
+    <h1 class="mt-5">5. Imagens -
+        <small>
+            <a href="https://getbootstrap.com/docs/4.0/content/images/" target="_black">Documentação Oficial</a>
+        </small>
+    </h1>
+    <hr>
+
+    <!-- Imagens -->
+    <div class="p-2">
+        <!--mx-auto = no eixo x margem automarica ; junto com d-block a imagem fica centralizada -->
+        <img src="/imgs/img1.png" width="400px" alt="Imagem 1" class="mx-auto d-block">
+        <!--img-thumbnail = aplica efeito de margem com bordas arredondadas e responsividade-->
+        <img src="/imgs/img1.png" width="400px" alt="Imagem 1" class="img-thumbnail">
+        <!--img-fluid = aplica responsividade na foto-->
+        <img src="/imgs/img1.png" width="400px" alt="Imagem 1" class="img-fluid">
+    </div>
+
+    <h1 class="mt-5">6. Float -
+        <small>
+            <a href="https://getbootstrap.com/docs/4.0/utilities/float/" target="_black">Documentação Oficial</a>
+        </small>
+    </h1>
+    <hr>
+
+    <!-- Float -->
+    <div class="my-1 p3 float-left">1</div> <!--Alinhada a esquerda-->
+    <div class="my-1 p3 float-right">2</div> <!--Alinhada a direita-->
+    <div class="my-1 p3 float-lg-right">3</div> <!--Alinhada a direita com responsividade-->
+    
+</div>
+
+<style>
+    .exercicio div {
+        border: solid 8px #000;
+        font-size: 2rem;
+    }
+</style>

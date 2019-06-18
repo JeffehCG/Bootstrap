@@ -1,0 +1,10 @@
+npm i --save-dev jQuery@3.3.1 -E / instalando o jquery (-E coloca a versão exata no package.json)
+npm i --save-dev popper.js@1.14.3 -E //Instalando o popper
+
+npm start no terminal executa o http-server (definido start no arquivo package.json)
+
+alt + shift + pra baixo - duplica uma linha para baixo
+ctrl + d - selecionando uma palavra, ira selecionar todas iguais na pagina
+
+https://wrapbootstrap.com/ (sites de templates baseados em bootstrap)
+https://www.creative-tim.com/
